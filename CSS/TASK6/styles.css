@@ -1,0 +1,15 @@
+.parent-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px; /* Adjust the width of the parent box */
+    height: 200px; /* Adjust the height of the parent box */
+    background-color: #e0e0e0; /* Adjust the background color of the parent box */
+  }
+  
+  .child-box {
+    width: 100px; /* Adjust the width of the child box */
+    height: 100px; /* Adjust the height of the child box */
+    background-color: #3498db; /* Adjust the background color of the child box */
+  }
+  
