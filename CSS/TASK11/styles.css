@@ -1,0 +1,9 @@
+.round-border {
+    width: auto;
+    height: auto;
+    border: 2px solid #ff0000;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
