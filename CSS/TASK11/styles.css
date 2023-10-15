@@ -1,0 +1,31 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 200px;
+    height: 100px;
+    background-color: #3498db;
+    position: relative;
+    border-radius: 50px 20px 50px 20px;
+}
+
+.slanted-border {
+    width: 100%;
+    height: 100%;
+    background-color: #e74c3c;
+    position: absolute;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    transform: skewX(-45deg);
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}

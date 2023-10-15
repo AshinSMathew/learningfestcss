@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .frame {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(4, 1fr);
+            height: 400px; /* Adjust the height of the frame */
+            width: 400px;  /* Adjust the width of the frame */
+            border: 2px solid #000;
+        }
+
+        .box {
+            border: 2px solid #000;
+        }
+
+        .hole {
+            background-color: transparent; /* Set the background color to make it transparent */
+            border: none; /* Remove the border */
+        }
+    </style>
+</head>
+<body>
+    <div class="frame">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box hole"></div> <!-- Hole in the middle -->
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box hole"></div> <!-- Hole in the middle -->
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box hole"></div> <!-- Hole in the middle -->
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box hole"></div> <!-- Hole in the middle -->
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</body>
+</html>
+
+
